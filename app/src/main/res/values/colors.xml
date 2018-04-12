@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secondary_color_333333">#333333</color>
+    <color name="secondary_color_666666">#666666</color>
+    <color name="secondary_color_999999">#999999</color>
+    <color name="secondary_color_cccccc">#cccccc</color>
+    <color name="secondary_color_e7e7e7">#efefef</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_trans_50">#55000000</color>
+</resources>

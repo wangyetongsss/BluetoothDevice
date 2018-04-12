@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Tangerine">
+        <attr name="screenBackGround_DarkMoon" format="reference" />
+        <attr name="textColorHint" format="reference" />
+        <attr name="textColorWhite" format="reference" />
+        <attr name="textColororDinary" format="reference" />
+        <attr name="textColororBlack" format="reference" />
+        <attr name="textSizeSmall" format="reference" />
+        <attr name="textColorPrimary" format="reference" />
+    </declare-styleable>
+</resources>

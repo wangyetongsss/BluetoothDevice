@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Tangerine" parent="@style/Theme.AppCompat">
+        <!--界面背景颜色-->
+        <item name="screenBackGround_DarkMoon">@color/secondary_color_e7e7e7</item>
+        <!--分割线颜色-->
+        <item name="textColorHint">@color/secondary_color_cccccc</item>
+        <!--白色字体颜色-->
+        <item name="textColorWhite">@color/white</item>
+        <!--普通字体颜色-->
+        <item name="textColororDinary">@color/secondary_color_666666</item>
+        <item name="textSizeSmall">@dimen/majority_text</item>
+        <!--主要字体颜色-->
+        <item name="textColorPrimary">@color/secondary_color_333333</item>
+        <!--MAC字体颜色-->
+        <item name="textColororBlack">@color/black</item>
+    </style>
+</resources>

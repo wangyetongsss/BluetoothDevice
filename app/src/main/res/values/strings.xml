@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">蓝牙</string>
+    <!-- 权限处理 -->
+    <string name="str_permissions_title">权限设置</string>
+    <string name="str_no_permissions_tip">应用程序需要被授权一些重要权限</string>
+    <string name="str_set_permissions_tip">请设置应用程序需要的重要权限</string>
+    <string name="str_to_setting">去设置</string>
+    <string name="str_runtime_permission_succ">授权重要权限成功</string>
+    <!-- 共用字符定义 -->
+    <string name="str_cancel">取消</string>
+    <string name="str_yes">确定</string>
+    <string name="str_del">删除</string>
+    <string name="str_exit">退出</string>
+    <string name="str_setting">设置</string>
+    <string name="str_network_fail">网络请求失败,请检查网络设置</string>
+    <string name="str_i_know">知道了</string>
+    <string name="and">与</string>
+    <string name="str_bluetooth_is_close">蓝牙未开启</string>
+    <string name="error_device">无法正常连接</string>
+    <string name="str_connect_led">连接中...</string>
+</resources>

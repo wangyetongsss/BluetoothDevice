@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义 -->
+    <dimen name="large_fillet_button_height">42dp</dimen>
+    <dimen name="normal_button_height">36dp</dimen>
+    <dimen name="normal_button_height_small">32dp</dimen>
+    <dimen name="normal_height">128dp</dimen>
+    <dimen name="scan_pading">15dp</dimen>
+    <dimen name="majority_text">14dp</dimen>
+    <dimen name="lst_menu_item_height">50dp</dimen>
+    <dimen name="lst_menu_item_padding_left">15dp</dimen>
+    <dimen name="lst_menu_item_padding_top">8dp</dimen>
+    <dimen name="lst_scan_item_spacing">15dp</dimen>
+</resources>

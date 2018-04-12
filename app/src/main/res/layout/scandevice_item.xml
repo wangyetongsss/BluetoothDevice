@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/lst_menu_item_height"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/lst_menu_item_padding_top"
+    android:paddingLeft="@dimen/lst_menu_item_padding_left"
+    android:paddingRight="@dimen/lst_menu_item_padding_left"
+    android:paddingTop="@dimen/lst_menu_item_padding_top">
+
+    <ImageView
+        android:id="@+id/bluetooth_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/lst_scan_item_spacing"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/menu_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textColor="?textColorPrimary"
+        android:textSize="?textSizeSmall" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@null" />
+
+    <ImageView
+        android:id="@+id/img_rssi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/device_icon_rssi_level" />
+
+
+</LinearLayout>

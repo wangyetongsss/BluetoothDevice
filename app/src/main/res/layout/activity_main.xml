@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?screenBackGround_DarkMoon"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_bluetooth_state"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/normal_button_height_small"
+                android:background="?textColorWhite"
+                android:drawablePadding="@dimen/scan_pading"
+                android:gravity="center_vertical"
+                android:text="@string/str_bluetooth_is_close"
+                android:textColor="?textColororDinary"
+                android:textSize="?textSizeSmall" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="100">
+
+                <ListView
+                    android:id="@+id/scan_device_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:divider="?textColorHint"
+                    android:dividerHeight="1dp" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

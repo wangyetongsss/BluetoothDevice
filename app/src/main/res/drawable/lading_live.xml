@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@mipmap/lading_live1"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live2"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live3"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live4"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live5"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live6"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live7"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live8"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live9"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live10"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live11"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/lading_live12"
+        android:duration="100"/>
+
+</animation-list>
